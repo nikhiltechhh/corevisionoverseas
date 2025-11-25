@@ -124,6 +124,10 @@ function Footer() {
                   <Mail size={18} className="flex-shrink-0 text-[#e66232]" />
                   <span>consult@corevisionoverseas.com</span>
                 </li>
+                <li className="flex items-center space-x-3 text-gray-300 text-sm">
+                  <Mail size={18} className="flex-shrink-0 text-[#e66232]" />
+                  <span>corevisionoverseas@gmail.com</span>
+                </li>
               </ul>
             </div>
           </div>
