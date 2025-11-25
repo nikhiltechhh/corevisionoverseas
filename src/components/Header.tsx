@@ -42,7 +42,7 @@
               <div className="flex flex-col md:flex-row md:items-center gap-3 md:gap-6 lg:gap-8 text-white/90">
                 <div className="flex items-center gap-2">
                   <Mail className="w-4 h-4 text-accent flex-shrink-0" />
-                  <span className="text-[13px] text-black">corevisionoverseas@gmail.com</span>
+                  <span className="text-[13px] text-black">consult@corevisionoverseas.com</span>
                 </div>
                 <div className="flex items-center gap-2">
                   <MapPin className="w-4 h-4 text-accent flex-shrink-0" />
