@@ -117,8 +117,12 @@ function Footer() {
                   <span>+91 7995766950</span>
                 </li>
                 <li className="flex items-center space-x-3 text-gray-300 text-sm">
+                  <Phone size={18} className="flex-shrink-0 text-[#e66232]" />
+                  <span>+1 9194340052</span>
+                </li>
+                <li className="flex items-center space-x-3 text-gray-300 text-sm">
                   <Mail size={18} className="flex-shrink-0 text-[#e66232]" />
-                  <span>corevisionoverseas@gmail.com</span>
+                  <span>consult@corevisionoverseas.com</span>
                 </li>
               </ul>
             </div>
