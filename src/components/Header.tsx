@@ -82,7 +82,7 @@
               {/* Logo - Responsive Sizing */}
               <div className="w-36 h-10 md:w-48 md:h-12 lg:w-46 lg:h-14 overflow-hidden rounded transition-all duration-300">
                 <img
-                  src="https://i.ibb.co/5X3v7jFh/LOGOC.png"
+                  src="https://i.ibb.co/Q7Xbxgmz/with-caption-copy.png"
                   alt="Core Vision Overseas"
                   className="w-full h-full object-cover opacity-100"
                 />
