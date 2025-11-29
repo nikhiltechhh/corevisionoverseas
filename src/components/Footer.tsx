@@ -15,37 +15,38 @@ function Footer() {
         }}
       />
 
-      <div className="relative z-10">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 lg:py-16">
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 lg:gap-12">
-            <div className="space-y-4">
-              <img 
-              src="https://i.ibb.co/5X3v7jFh/LOGOC.png" 
-              alt="Core Vision Overseas Logo" 
-              className="h-12 w-auto"
-                />
+    <div className="relative z-10">
+  <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 lg:py-16">
+    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 lg:gap-12">
+      
+      {/* Logo + Image Under Logo */}
+      <div className="space-y-4">
+        <img 
+          src="https://i.ibb.co/5X3v7jFh/LOGOC.png" 
+          alt="Core Vision Overseas Logo" 
+          className="h-12 w-auto"
+        />
 
-              {/* <h3 className="text-2xl font-bold bg-gradient-to-r from-blue-400 to-cyan-400 bg-clip-text text-transparent">
-               Core Vision Overseas
-              </h3> */}
-              <p className="text-gray-300 text-sm leading-relaxed">
-                ILLUMINATING YOUR PATH TO GLOBAL SUCCESS
-              </p>
-              <div className="flex space-x-4 pt-2">
-                {/* <a href="#" className="hover:text-blue-400 transition-colors duration-300 transform hover:scale-110">
-                  <Facebook size={20} />
-                </a>
-                <a href="#" className="hover:text-blue-400 transition-colors duration-300 transform hover:scale-110">
-                  <Twitter size={20} />
-                </a>*/}
-                <a href="#" className="hover:text-blue-400 transition-colors duration-300 transform hover:scale-110">
-                  <Linkedin size={20} />
-                </a> 
-                <a href="https://www.instagram.com/edu.corevisionoverseas?igsh=enc5dDlzcndsdHBl" className="hover:text-blue-400 transition-colors duration-300 transform hover:scale-110">
-                  <Instagram size={20} />
-                </a>
-              </div>
-            </div>
+        {/* Image Under Logo */}
+        <img
+          src="https://i.ibb.co/4ZJMdPS7/gold-line.png"  // <-- replace with your image link
+          alt="Footer Banner"
+          className="w-40 h-auto rounded-md object-cover"
+        />
+
+        <div className="flex space-x-4 pt-2">
+          <a href="#" className="hover:text-blue-400 transition-colors duration-300 transform hover:scale-110">
+            <Linkedin size={20} />
+          </a> 
+          <a
+            href="https://www.instagram.com/edu.corevisionoverseas?igsh=enc5dDlzcndsdHBl"
+            className="hover:text-blue-400 transition-colors duration-300 transform hover:scale-110"
+          >
+            <Instagram size={20} />
+          </a>
+        </div>
+      </div>
+
 
             <div className="space-y-4">
               <h4 className="text-lg font-semibold text-white">Quick Links</h4>
@@ -123,10 +124,6 @@ function Footer() {
                 <li className="flex items-center space-x-3 text-gray-300 text-sm">
                   <Mail size={18} className="flex-shrink-0 text-[#e66232]" />
                   <span>consult@corevisionoverseas.com</span>
-                </li>
-                <li className="flex items-center space-x-3 text-gray-300 text-sm">
-                  <Mail size={18} className="flex-shrink-0 text-[#e66232]" />
-                  <span>corevisionoverseas@gmail.com</span>
                 </li>
               </ul>
             </div>
