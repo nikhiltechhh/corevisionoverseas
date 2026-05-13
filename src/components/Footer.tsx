@@ -112,6 +112,7 @@ function Footer() {
                   <MapPin size={18} className="mt-0.5 flex-shrink-0 text-[#e66232]" />
                   <span>Nellore, AndhraPradesh</span>
                   <span>Chennai, Tamilnadu</span>
+                  <span>Texas, USA</span>
                 </li>
                 <li className="flex items-center space-x-3 text-gray-300 text-sm">
                   <Phone size={18} className="flex-shrink-0 text-[#e66232]" />
@@ -119,7 +120,7 @@ function Footer() {
                 </li>
                 <li className="flex items-center space-x-3 text-gray-300 text-sm">
                   <Phone size={18} className="flex-shrink-0 text-[#e66232]" />
-                  <span>+1 9194340052</span>
+                  <span>+1 9726541486</span>
                 </li>
                 <li className="flex items-center space-x-3 text-gray-300 text-sm">
                   <Mail size={18} className="flex-shrink-0 text-[#e66232]" />

@@ -80,13 +80,13 @@
           <div className="container mx-auto px-4 lg:px-8">
             <div className="flex items-center justify-between py-4">
               {/* Logo - Responsive Sizing */}
-              <div className="w-36 h-10 md:w-48 md:h-12 lg:w-46 lg:h-14 overflow-hidden rounded transition-all duration-300">
-                <img
-                  src="https://i.ibb.co/Q7Xbxgmz/with-caption-copy.png"
-                  alt="Core Vision Overseas"
-                  className="w-full h-full object-cover opacity-100"
-                />
-              </div>
+           <div className="w-44 h-12 md:w-56 md:h-14 lg:w-64 lg:h-16 overflow-hidden rounded transition-all duration-300">
+  <img
+    src="https://i.ibb.co/wh814cWn/cv.png"
+    alt="Core Vision Overseas"
+    className="w-full h-full object-contain object-center"
+  />
+</div>
 
               {/* Desktop Navigation */}
               <nav className="hidden lg:flex items-center gap-1">
