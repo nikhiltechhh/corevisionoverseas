@@ -78,7 +78,7 @@
         {/* Main Navigation - Slightly lighter dark */}
         <div className="bg-[#bdb6b5] backdrop-blur-sm">
           <div className="container mx-auto px-4 lg:px-8">
-            <div className="flex items-center justify-between py-4">
+            <div className="flex items-center justify-between py-2">
               {/* Logo - Responsive Sizing */}
            <div className="w-44 h-12 md:w-56 md:h-14 lg:w-64 lg:h-16 overflow-hidden rounded transition-all duration-300">
   <img
@@ -109,7 +109,7 @@
               });
             }
           }}
-          className={`flex items-center gap-1 px-4 py-6 text-[15px] font-medium transition-colors relative
+          className={`flex items-center gap-1 px-4 py-4 text-[15px] font-medium transition-colors relative
             ${activeItem === item.name ? 'text-white' : 'text-black/80 hover:text-white'}
           `}
         >
@@ -162,7 +162,7 @@
                 
                 <Button
   onClick={() => { window.location.href = "tel:+917995766950"; }}
-  className="hidden md:flex bg-[#e66232] hover:bg-[#e66232]/90 text-white rounded-full px-7 py-6 text-[15px] font-medium 
+  className="hidden md:flex bg-[#e66232] hover:bg-[#e66232]/90 text-white rounded-full px-7 py-3 text-[15px] font-medium 
              shadow-none focus:outline-none focus:ring-0 active:ring-0 active:outline-none
              transition-all hover:scale-105"
 >
@@ -296,7 +296,7 @@
     <div className="px-4 py-4">
     <Button
     onClick={() => { window.location.href = "tel:+917995766950"; }}
-    className="bg-[#e66232] hover:bg-[#e66232]/90 text-white rounded-full w-full py-6 text-[15px] font-medium shadow-none focus:outline-none focus:ring-0 active:ring-0 active:outline-none transition-all hover:scale-105"
+    className="bg-[#e66232] hover:bg-[#e66232]/90 text-white rounded-full w-full py-3 text-[15px] font-medium shadow-none focus:outline-none focus:ring-0 active:ring-0 active:outline-none transition-all hover:scale-105"
   >
     Book Consultation
   </Button>
